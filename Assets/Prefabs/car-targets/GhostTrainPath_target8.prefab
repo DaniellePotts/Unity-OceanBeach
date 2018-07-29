@@ -9,16 +9,16 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1068657522498626}
+  m_RootGameObject: {fileID: 1816348859431528}
   m_IsPrefabAsset: 1
---- !u!1 &1068657522498626
+--- !u!1 &1816348859431528
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4323769823151804}
+  - component: {fileID: 4733212825150564}
   m_Layer: 0
   m_Name: GhostTrainPath_target8
   m_TagString: Untagged
@@ -26,14 +26,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4323769823151804
+--- !u!4 &4733212825150564
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1068657522498626}
+  m_GameObject: {fileID: 1816348859431528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.96, y: 6.12, z: -3.19}
+  m_LocalPosition: {x: 9.325, y: 2.686, z: -3.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
