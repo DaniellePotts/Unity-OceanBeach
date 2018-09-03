@@ -27,20 +27,7 @@ public class Movement : MonoBehaviour
 
         if (currCycle <= maxCycle)
         {
-            if (Car.transform.position == target[2].position)
-            {
-                speed = 15;
-            }
-
-            if (Car.transform.position == target[0].position)
-            {
-                speed = 5;
-            }
-
-            if (Car.transform.position == target[3].position)
-            {
-                speed = 10;
-            }
+            
 
 
             if (Car.transform.position != target[current].position)
@@ -61,5 +48,10 @@ public class Movement : MonoBehaviour
             GetComponent<Rigidbody>().MovePosition(pos);
         }
 
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+        Destroy(collider.gameObject);
     }
 }
